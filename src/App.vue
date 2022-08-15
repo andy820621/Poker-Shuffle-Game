@@ -138,7 +138,7 @@ function openCard(card) {
 }
 $cardWidth: 15vw;
 @mixin setLeftPosition($left, $width: $cardWidth) {
-	left: calc(#{$left} - #{$width/2});
+	left: calc(#{$left} - #{$width} / 2);
 }
 p.state {
 	text-align: center;
